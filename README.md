@@ -1,0 +1,1 @@
+Weldi Android Native (Java) app published on PlayStore users of weldi can play Quizs / prononciation games / Coloration in an educative way for young childs with a parental acces and controle for time of using and Realtime Leaderboard
