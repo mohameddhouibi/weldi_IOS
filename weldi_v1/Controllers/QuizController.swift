@@ -12,8 +12,6 @@ import UIKit
 class quizCell: UITableViewCell
 {
     @IBOutlet weak var answerLabel: UILabel!
-    
-    
 }
 
 class QuizController: UIViewController ,UITableViewDelegate,UITableViewDataSource{
@@ -44,7 +42,6 @@ class QuizController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
     
     @IBAction func actionSubmit(_ sender: Any) {
     chooseAnswer()
-
     }
     @IBOutlet weak var quizTable: UITableView!
     
@@ -84,10 +81,8 @@ class QuizController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         temp.append(String(quizModule.giveTotalQuestionCount()))
         countLabel.text = temp
         
-        
     }
     func setQuestion(){
-        
         questionLabel.text = quizModule.GiveCurrentQuestion().giveQuestion()
     }
     

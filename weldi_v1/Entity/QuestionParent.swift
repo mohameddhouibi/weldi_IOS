@@ -1,41 +1,34 @@
 //
-//  Question.swift
+//  QuestionParent.swift
 //  weldi_v1
 //
-//  Created by AmineGuesmi on 4/28/20.
+//  Created by AmineGuesmi on 6/28/20.
 //  Copyright © 2020 Dhouibi Muhamed. All rights reserved.
 //
 
 import Foundation
 
-class Question {
- 
-    private var question: String
+class QuestionParent {
+    private var id: Int
+
+    private var question: String 
     private var answer: String
     private var choice1: String
     private var choice2: String
     private var choice3: String
     private var choice4: String
-
-    init(){
-        question="jawk behi ?"
-        answer="jey"
-        choice1="jaw"
-        choice2="jey"
-        choice3="w"
-        choice4="beh"
-    }
-    init (que: String, an: String, c1: String, c2: String, c3: String, c4: String)
-        {
-        question = que
-        answer = an
-        choice1 = c1
-        choice2 = c2
-        choice3 = c3
-        choice4 = c4
+    
+    init (idd: Int, question: String, answer: String, choice1: String, choice2: String, choice3: String, choice4: String)
+    {
+        self.id = idd
+        self.question = question
+        self.answer = answer
+        self.choice1 = choice1
+        self.choice2 = choice2
+        self.choice3 = choice3
+        self.choice4 = choice4
         
-        }
-
+    }
     func giveChoices() -> [String]{
         
         var temp: [String] = []
@@ -55,12 +48,12 @@ class Question {
             
             return false
         }
-    
+        
     }
     
     func giveQuestion() -> String {
         
         return question
     }
-    
+
 }

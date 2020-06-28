@@ -24,6 +24,10 @@
 		FD171B32245A5FA1006D2E21 /* ABCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD171B31245A5FA1006D2E21 /* ABCController.swift */; };
 		FD1EFABD244F10FC00EAC079 /* SignIncController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1EFABC244F10FC00EAC079 /* SignIncController.swift */; };
 		FD1EFABF244F24CD00EAC079 /* SignUpCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1EFABE244F24CD00EAC079 /* SignUpCViewController.swift */; };
+		FD33D22224A609B4001623CB /* QuizParentQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD33D22124A609B4001623CB /* QuizParentQViewController.swift */; };
+		FD33FFCD24A8CA3A00946905 /* QuizParentChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD33FFCC24A8CA3A00946905 /* QuizParentChild.swift */; };
+		FD33FFCF24A8CCC400946905 /* QuizParentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD33FFCE24A8CCC400946905 /* QuizParentCell.swift */; };
+		FD33FFD124A8DEE100946905 /* ProzaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD33FFD024A8DEE100946905 /* ProzaController.swift */; };
 		FD3EBAC1245464290099B1D4 /* RegisterChildController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3EBAC0245464290099B1D4 /* RegisterChildController.swift */; };
 		FD465F4A245C6072009F157A /* MemoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD465F49245C6072009F157A /* MemoryController.swift */; };
 		FD465F4F245C6431009F157A /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = FD465F4B245C642D009F157A /* 3.wav */; };
@@ -87,6 +91,7 @@
 		FD6CD29A2446638A009B4800 /* SignUpParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CD2992446638A009B4800 /* SignUpParentViewController.swift */; };
 		FD8A861B244B2D4600B4F18D /* HomeParentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A861A244B2D4600B4F18D /* HomeParentController.swift */; };
 		FD8DD6AE244897EE00D18C96 /* ApiUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8DD6AD244897EE00D18C96 /* ApiUrl.swift */; };
+		FDB8B55624A8E38200F30C48 /* QuestionParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB8B55524A8E38200F30C48 /* QuestionParent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +116,10 @@
 		FD171B31245A5FA1006D2E21 /* ABCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABCController.swift; sourceTree = "<group>"; };
 		FD1EFABC244F10FC00EAC079 /* SignIncController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIncController.swift; sourceTree = "<group>"; };
 		FD1EFABE244F24CD00EAC079 /* SignUpCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCViewController.swift; sourceTree = "<group>"; };
+		FD33D22124A609B4001623CB /* QuizParentQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizParentQViewController.swift; sourceTree = "<group>"; };
+		FD33FFCC24A8CA3A00946905 /* QuizParentChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizParentChild.swift; sourceTree = "<group>"; };
+		FD33FFCE24A8CCC400946905 /* QuizParentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizParentCell.swift; sourceTree = "<group>"; };
+		FD33FFD024A8DEE100946905 /* ProzaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProzaController.swift; sourceTree = "<group>"; };
 		FD3EBAC0245464290099B1D4 /* RegisterChildController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterChildController.swift; sourceTree = "<group>"; };
 		FD465F49245C6072009F157A /* MemoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryController.swift; sourceTree = "<group>"; };
 		FD465F4B245C642D009F157A /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
@@ -174,6 +183,7 @@
 		FD6CD2992446638A009B4800 /* SignUpParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpParentViewController.swift; sourceTree = "<group>"; };
 		FD8A861A244B2D4600B4F18D /* HomeParentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParentController.swift; sourceTree = "<group>"; };
 		FD8DD6AD244897EE00D18C96 /* ApiUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUrl.swift; sourceTree = "<group>"; };
+		FDB8B55524A8E38200F30C48 /* QuestionParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionParent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +266,9 @@
 				FD4AE69C245B763900242D00 /* DrawController.swift */,
 				FD465F49245C6072009F157A /* MemoryController.swift */,
 				FD465F53245CBFB6009F157A /* AnimalsController.swift */,
+				FD33D22124A609B4001623CB /* QuizParentQViewController.swift */,
+				FD33FFCC24A8CA3A00946905 /* QuizParentChild.swift */,
+				FD33FFD024A8DEE100946905 /* ProzaController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -269,6 +282,8 @@
 				FD1159432458D8DB00B0CCAF /* Question.swift */,
 				FD4AE69F245B820500242D00 /* Canvas.swift */,
 				FD4AE6A1245BB04700242D00 /* Line.swift */,
+				FD33FFCE24A8CCC400946905 /* QuizParentCell.swift */,
+				FDB8B55524A8E38200F30C48 /* QuestionParent.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -504,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD1159442458D8DB00B0CCAF /* Question.swift in Sources */,
+				FDB8B55624A8E38200F30C48 /* QuestionParent.swift in Sources */,
 				FD0BE17624465368001D4015 /* CustomButton.swift in Sources */,
 				FD1EFABD244F10FC00EAC079 /* SignIncController.swift in Sources */,
 				FD1159422458D8A700B0CCAF /* Quiz.swift in Sources */,
@@ -513,15 +529,19 @@
 				FD4AE6A0245B820500242D00 /* Canvas.swift in Sources */,
 				FD465F4A245C6072009F157A /* MemoryController.swift in Sources */,
 				FD465F54245CBFB6009F157A /* AnimalsController.swift in Sources */,
+				FD33D22224A609B4001623CB /* QuizParentQViewController.swift in Sources */,
 				FD11593B2458CED400B0CCAF /* FirstQuizController.swift in Sources */,
+				FD33FFD124A8DEE100946905 /* ProzaController.swift in Sources */,
 				FD4AE6A2245BB04700242D00 /* Line.swift in Sources */,
 				FD8DD6AE244897EE00D18C96 /* ApiUrl.swift in Sources */,
 				FD4AE69D245B763900242D00 /* DrawController.swift in Sources */,
+				FD33FFCD24A8CA3A00946905 /* QuizParentChild.swift in Sources */,
 				FD8A861B244B2D4600B4F18D /* HomeParentController.swift in Sources */,
 				FD1EFABF244F24CD00EAC079 /* SignUpCViewController.swift in Sources */,
 				FD171B32245A5FA1006D2E21 /* ABCController.swift in Sources */,
 				FD1159402458D87200B0CCAF /* EndQuizController.swift in Sources */,
 				FD11593D2458D34800B0CCAF /* QuizController.swift in Sources */,
+				FD33FFCF24A8CCC400946905 /* QuizParentCell.swift in Sources */,
 				FD0BE16324465183001D4015 /* ViewController.swift in Sources */,
 				FD6CD29A2446638A009B4800 /* SignUpParentViewController.swift in Sources */,
 				FD0BE16124465183001D4015 /* AppDelegate.swift in Sources */,

@@ -49,9 +49,6 @@ class MemoryController: UIViewController,AVAudioPlayerDelegate{
             try sound3Player = AVAudioPlayer(contentsOf:soundFilePath3 as URL)
             try sound4Player = AVAudioPlayer(contentsOf:soundFilePath4 as URL)
 
-            
-            
-            
         }catch{
             print("error")
         }
@@ -73,7 +70,7 @@ class MemoryController: UIViewController,AVAudioPlayerDelegate{
         if buttonPressed == playlist[numberOfTaps] {
             if numberOfTaps == playlist.count - 1 {
                 
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5 ){
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1 ){
                     self.NextRound()
                 }
                 return

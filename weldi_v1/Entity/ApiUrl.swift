@@ -13,6 +13,9 @@ let apiSignup:String = "http://localhost:6666/register/"
 let apiSignin:String = "http://localhost:6666/login/"
 let apiSigninChild:String = "http://localhost:6666/loginChild/"
 let apiSignupChild:String = "http://localhost:6666/registerChild/"
+let apiAddQuiz:String = "http://localhost:6666/addQuiz/"
+let apiGetQuiz:String = "http://localhost:6666/GetQuiz/"
+
 
 
 
